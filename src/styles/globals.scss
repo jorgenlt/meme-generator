@@ -22,8 +22,18 @@ body {
   background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
   color: snow;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   border-radius: 7px 7px 0px 0px;
+  
+  .fa-github {
+    font-size: 24px;
+    margin-left: 18px;
+    
+    &:hover {
+      opacity: 0.8;
+    }
+  }
   
   a {
     text-decoration: none;
@@ -108,9 +118,19 @@ body {
   }
 }
 
+#click-info {
+  margin: 8px 0px 8px 0px;
+  font-family: 'Inter';
+  color: #da72ff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
 .meme-img {
   position: relative;
-  margin: 36px 0px;
+  margin-top: 36px;
+  display: flex;
+  cursor: pointer;
   
   &:hover {
     opacity: 0.95;
@@ -165,6 +185,11 @@ body {
   #header {
     width: 100vw;
     border-radius: 0px;
+    
+    .fa-github {
+      font-size: 20px;
+      margin-left: 22px;
+    }
   }
   
   #meme--inputs {
