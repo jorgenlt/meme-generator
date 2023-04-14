@@ -3,7 +3,7 @@ export default function Header() {
     return (
         <div id="header">
             <a href="https://github.com/jorgenlt/meme-generator" target="_blank" rel="norefferer">
-                <i class="fa-brands fa-github"></i>
+                <i className="fa-brands fa-github"></i>
             </a>
             <div id="memeface">
                 <img
